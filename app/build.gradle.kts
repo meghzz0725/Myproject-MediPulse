@@ -48,17 +48,17 @@ dependencies {
     implementation(files("libs/runanywhere-llm-llamacpp-release.aar"))
 
     // Required SDK dependencies (transitive dependencies from AARs)
-    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.10.2")
-    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.10.2")
-    implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.7.3")
-    implementation("org.jetbrains.kotlinx:kotlinx-datetime:0.6.1")
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.8.1")
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.8.1")
+    implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.6.3")
+    implementation("org.jetbrains.kotlinx:kotlinx-datetime:0.6.0")
 
     // Ktor for networking (required by SDK)
-    implementation("io.ktor:ktor-client-core:3.0.3")
-    implementation("io.ktor:ktor-client-okhttp:3.0.3")
-    implementation("io.ktor:ktor-client-content-negotiation:3.0.3")
-    implementation("io.ktor:ktor-client-logging:3.0.3")
-    implementation("io.ktor:ktor-serialization-kotlinx-json:3.0.3")
+    implementation("io.ktor:ktor-client-core:2.3.11")
+    implementation("io.ktor:ktor-client-okhttp:2.3.11")
+    implementation("io.ktor:ktor-client-content-negotiation:2.3.11")
+    implementation("io.ktor:ktor-client-logging:2.3.11")
+    implementation("io.ktor:ktor-serialization-kotlinx-json:2.3.11")
 
     // OkHttp (required by SDK)
     implementation("com.squareup.okhttp3:okhttp:4.12.0")
@@ -72,10 +72,10 @@ dependencies {
     implementation("com.google.code.gson:gson:2.11.0")
 
     // Okio (required by SDK)
-    implementation("com.squareup.okio:okio:3.9.1")
+    implementation("com.squareup.okio:okio:3.9.0")
 
     // AndroidX WorkManager (required by SDK)
-    implementation("androidx.work:work-runtime-ktx:2.10.0")
+    implementation("androidx.work:work-runtime-ktx:2.9.0")
 
     // AndroidX Room (required by SDK)
     implementation("androidx.room:room-runtime:2.6.1")
